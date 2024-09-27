@@ -30,7 +30,7 @@ export default async function PostDetail({ params }) {
                     <ClientSideComponent stock={data.stock}/>
 
                     <button className="addToCart">
-                        <Image src={"/public/images/button.png"} width={17} height={17} alt={"button"}></Image>
+                        <Image src={"/images/button.png"} width={17} height={17} alt={"button"}></Image>
                         <p>Add to cart</p>
                     </button>
                 </div>
